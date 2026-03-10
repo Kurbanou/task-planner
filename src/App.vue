@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <app-header />
-    <main></main>
+    <main>
+      <div v-if="!tasks"><!--empty--></div>
+    </main>
     <app-footer />
   </div>
 </template>
