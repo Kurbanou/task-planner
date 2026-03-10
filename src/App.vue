@@ -1,44 +1,44 @@
 <template>
   <div class="container">
-    <header>Header</header>
-    <main>Main</main>
-    <footer>Footer</footer>
+    <header><h1>Task Manager</h1></header>
+    <main></main>
+    <app-footer />
   </div>
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import AppFooter from "./components/AppFooter.vue";
 
-const tasks = ref([
-  {
-    id: 1,
-    title: "Изучить Vue 3",
-    completed: false,
-    priority: "high",
-    category: "Обучение",
-  },
-  {
-    id: 2,
-    title: "Сделать проект с Element Plus",
-    completed: true,
-    priority: "medium",
-    category: "Работа",
-  },
-  {
-    id: 3,
-    title: "Купить продукты",
-    completed: false,
-    priority: "low",
-    category: "Личное",
-  },
-  {
-    id: 4,
-    title: "Позвонить жене",
-    completed: false,
-    priority: "high",
-    category: "Личное",
-  },
-]);
+// const tasks = ref([
+//   {
+//     id: 1,
+//     title: "Изучить Vue 3",
+//     completed: false,
+//     priority: "high",
+//     category: "Обучение",
+//   },
+//   {
+//     id: 2,
+//     title: "Сделать проект с Element Plus",
+//     completed: true,
+//     priority: "medium",
+//     category: "Работа",
+//   },
+//   {
+//     id: 3,
+//     title: "Купить продукты",
+//     completed: false,
+//     priority: "low",
+//     category: "Личное",
+//   },
+//   {
+//     id: 4,
+//     title: "Позвонить жене",
+//     completed: false,
+//     priority: "high",
+//     category: "Личное",
+//   },
+// ]);
 </script>
 
 <style>
@@ -50,7 +50,7 @@ body {
 }
 
 .container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 20px;
@@ -58,7 +58,11 @@ body {
   flex-direction: column;
 }
 main {
-  flex-grow: 1;
+  /* flex-grow: 1; */
+}
+
+a {
+  color: blue;
 }
 
 @media (max-width: 500px) {
