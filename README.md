@@ -1,44 +1,64 @@
-# task-planner
+# 📋 Task Manager
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple and elegant task management application built with **Vue 3** and **Element Plus**.
+Organize your daily tasks with priorities and categories in a beautiful interface.
 
-## Recommended IDE Setup
+![Vue](https://img.shields.io/badge/Vue-3.x-brightgreen)
+![Element Plus](https://img.shields.io/badge/Element%20Plus-latest-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## ✨ Features
 
-## Recommended Browser Setup
+- ✅ **Create Tasks** — Add new tasks with title, priority (high/medium/low), and category
+- ✅ **Track Progress** — Mark tasks as completed with interactive checkboxes
+- ✅ **Smart Filtering** — Filter tasks by status (All / Active / Completed)
+- ✅ **Visual Priority** — Color-coded tags for different priority levels
+- ✅ **Task Statistics** — Real-time counters for total, completed, and active tasks
+- ✅ **Responsive Design** — Works perfectly on desktop, tablet, and mobile
+- ✅ **Auto-save** — Tasks are automatically saved to localStorage (coming soon)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 🚀 Live Demo
 
-## Customize configuration
+[View Live Demo](https://your-demo-link.com) — _Coming soon_
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 📸 Screenshots
 
-## Project Setup
+## 🛠️ Tech Stack
 
-```sh
+- **Frontend Framework**: Vue 3 (Composition API)
+- **UI Library**: Element Plus
+- **Icons**: @element-plus/icons-vue
+- **Build Tool**: Vite
+- **Package Manager**: npm / yarn
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/task-planner.git
+   cd task-planner
+   ```
+
+Install dependencies
+
+```bash
 npm install
+# or
+yarn install
 ```
 
-### Compile and Hot-Reload for Development
+Run development server
 
-```sh
+```bash
 npm run dev
+# or
+yarn dev
 ```
 
-### Compile and Minify for Production
+Build for production
 
-```sh
+```bash
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+# or
+yarn build
 ```
