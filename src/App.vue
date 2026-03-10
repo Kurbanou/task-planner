@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <header><h1>Task Manager</h1></header>
+    <app-header />
     <main></main>
     <app-footer />
   </div>
@@ -8,6 +8,7 @@
 
 <script setup>
 import AppFooter from "./components/AppFooter.vue";
+import AppHeader from "./components/AppHeader.vue";
 
 // const tasks = ref([
 //   {
@@ -50,7 +51,7 @@ body {
 }
 
 .container {
-  /* min-height: 100vh; */
+  min-height: 100vh;
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 20px;
@@ -58,7 +59,7 @@ body {
   flex-direction: column;
 }
 main {
-  /* flex-grow: 1; */
+  flex-grow: 1;
 }
 
 a {
