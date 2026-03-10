@@ -39,7 +39,7 @@ Organize your daily tasks with priorities and categories in a beautiful interfac
    cd task-planner
    ```
 
-Install dependencies
+## Install dependencies
 
 ```bash
 npm install
@@ -47,7 +47,7 @@ npm install
 yarn install
 ```
 
-Run development server
+## Run development server
 
 ```bash
 npm run dev
@@ -55,7 +55,7 @@ npm run dev
 yarn dev
 ```
 
-Build for production
+## Build for production
 
 ```bash
 npm run build
