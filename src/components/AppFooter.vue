@@ -2,12 +2,14 @@
   <footer class="app-footer">
     <el-row :gutter="20">
       <!-- Левая колонка: название -->
-      <el-col :md="3" :sm="8"> Task Manager </el-col>
+      <el-col :md="3" :sm="8"> <el-text type="info">Task Manager</el-text> </el-col>
 
       <!-- Центральная колонка: разработчик -->
       <el-col :md="15" :sm="8">
         <User :width="18" :height="18" />
-        <span>Разработчик:</span> <strong>Kurbanou Farid</strong>
+        <el-text type="info">
+          Developer: <el-text type="primary" tag="b">Kurbanou Farid</el-text>
+        </el-text>
       </el-col>
 
       <!-- Правая колонка: GitHub и версия -->
